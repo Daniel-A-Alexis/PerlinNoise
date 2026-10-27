@@ -13,3 +13,8 @@ Notes:
 Usage:
 1. Download the repo
 2. Use Main.exe to open
+
+Next steps:
+- Currently the only optimisation implemented is not rendering any blocks that are surrounded on all sides by other blocks (therefore should never be visible to the eye)
+- Group the blocks of the world / cluster into single mesh
+- Only render a face if the side is not adjacent to another "non-air" block
