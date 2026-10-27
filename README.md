@@ -7,7 +7,8 @@ Perlin noise implementation is within World.c:
 - **float PerlinFade()** // Used to smoothen interpolation and stop harsh changes on the edges
 
 Notes:
-I was messing with a few different ideas here so this project will have some extra unused code in places!
+- You can change the WORLD_SIZE definition within **World.h** to see it cover a larger landscape but due to poor optimisation it'll probably lag, so I've left it at a 64x64x64 world size
+- I was messing with a few different ideas here so this project will have some extra unused code in places!
 
 Usage:
 1. Download the repo
