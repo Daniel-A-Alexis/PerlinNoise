@@ -12,7 +12,7 @@ Model floorModel;
 
 void LoadModels()
 {
-    box = LoadModel("Models/Box.glb");
+    box = LoadModel("Models/Block_Grass.glb");
     if (!IsModelValid(box))
     {
         printf("Failed to load model!\n");
