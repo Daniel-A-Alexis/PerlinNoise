@@ -7,7 +7,7 @@
 int cameraMode = CAMERA_FREE;
 
 Camera3D camera = {
-    .position = {10.0f, 10.0f, 10.0f},
+    .position = {10.0f, 20.0f, 10.0f},
     .target = {0.0f, 0.0f, 0.0f},
     .up = {0.0f, 1.0f, 0.0f},
     .fovy = 45.0f,
